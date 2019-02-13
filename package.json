@@ -1,0 +1,31 @@
+{
+  "name": "sms",
+  "version": "1.0.0",
+  "description": "短信",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/.bin/nodemon index.js"
+  },
+  "author": "zhangliang",
+  "license": "ISC",
+  "dependencies": {
+    "extend": "^3.0.2",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "log4js": "^3.0.6",
+    "mongoose": "^5.3.14",
+    "qcloudsms_js": "^0.1.1",
+    "redis": "^2.8.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "require-directory": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.10.0",
+    "eslint-config-egg": "^7.1.0",
+    "nodemon": "^1.18.7"
+  }
+}
