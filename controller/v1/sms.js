@@ -11,7 +11,7 @@ exports.smsSingleSender = async ctx => {
   logger.info('单条发送参数', data);
   const { phone, templateId, params } = data;
   await ctx.service.sms.smsSingleSender(phone, templateId, params);
-  ctx.body = { msg: 'success' };
+  ctx.body = { message: 'success' };
 };
 
 /**
@@ -23,5 +23,5 @@ exports.smsMultiSender = async ctx => {
   logger.info('多条发送参数', data);
   const { phones, templateId, params } = data;
   await ctx.service.sms.smsMultiSender(phones, templateId, params);
-  ctx.body = { msg: 'success' };
+  ctx.body = { message: 'success' };
 };
