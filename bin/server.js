@@ -8,9 +8,6 @@ const Service = require('../service');
 const middleware = require('../middleware').middleware;
 const logger = require('../libs/logger').logger('sms');
 
-require('../libs/mongoose');
-require('../libs/redis');
-
 const app = new Koa();
 
 app.use(bodyParser());

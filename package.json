@@ -16,9 +16,7 @@
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
     "log4js": "^3.0.6",
-    "mongoose": "^5.3.14",
     "qcloudsms_js": "^0.1.1",
-    "redis": "^2.8.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.2",
     "require-directory": "^2.1.1"
