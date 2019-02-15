@@ -8,6 +8,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "./node_modules/.bin/nodemon index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i5tong/sms.git"
+  },
   "author": "zhangliang",
   "license": "ISC",
   "dependencies": {
